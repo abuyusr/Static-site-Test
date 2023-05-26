@@ -96,7 +96,7 @@
       const getEvents = document.getElementById("getEvents");
       const events = document.getElementById("events");
       const getCalendarEvents =
-        "https://8m6ur9ohjc.execute-api.us-east-1.amazonaws.com/dev/api/get-events/{access_token}";
+        "https://8m6ur9ohjc.execute-api.us-east-1.amazonaws.com/dev/api/get-events";
 
       getEvents.onclick = function () {
         const { access_token } = JSON.parse(accessTokenElement.innerText);
